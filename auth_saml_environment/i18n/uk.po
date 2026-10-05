@@ -34,3 +34,23 @@ msgstr "Приватний PEM SP"
 #: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__sp_pem_public
 msgid "Sp Pem Public"
 msgstr "Відкритий PEM SP"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__x_entity_id_env_default
+msgid "Entity ID Env Default"
+msgstr "Типове середовище ID сутності"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__idp_metadata
+msgid "Identity Provider Metadata"
+msgstr "Метадані постачальника ідентифікації"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__sp_pem_private_path
+msgid "sp_pem_private_path env config value"
+msgstr "значення конфігурації середовища sp_pem_private_path"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__sp_pem_public_path
+msgid "sp_pem_public_path env config value"
+msgstr "значення конфігурації середовища sp_pem_public_path"
