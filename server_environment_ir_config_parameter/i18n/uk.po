@@ -26,3 +26,9 @@ msgid ""
 msgstr ""
 "Якщо позначено, значення в базі даних буде проігноровано, а система "
 "натомість використає ключ, визначений у файлі середовища odoo.cfg."
+
+#. module: server_environment_ir_config_parameter
+#. odoo-python
+#: code:addons/server_environment_ir_config_parameter/models/ir_config_parameter.py:0
+msgid "Key %s is empty in server_environment_file"
+msgstr "Ключ %s порожній у server_environment_file"
