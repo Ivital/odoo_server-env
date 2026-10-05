@@ -11,4 +11,11 @@ msgstr ""
 #. module: auth_saml_environment
 #: model:ir.module.module,summary:base.module_auth_saml_environment
 msgid "Allows system administrator to authenticate with any account"
-msgstr "Дозволяє системному адміністратору автентифікуватися під будь-яким обліковим записом"
+msgstr ""
+"Дозволяє системному адміністратору автентифікуватися під будь-яким обліковим"
+" записом"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__entity_id
+msgid "Entity ID"
+msgstr "ID сутності"
