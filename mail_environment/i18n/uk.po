@@ -23,3 +23,13 @@ msgstr "Типові значення серверного середовища"
 #: model:ir.model.fields,field_description:mail_environment.field_fetchmail_server__x_is_ssl_env_default
 msgid "SSL/TLS Env Default"
 msgstr "Типове середовище SSL/TLS"
+
+#. module: mail_environment
+#: model:ir.model.fields,help:mail_environment.field_fetchmail_server__is_ssl
+#: model:ir.model.fields,help:mail_environment.field_fetchmail_server__x_is_ssl_env_default
+msgid ""
+"Connections are encrypted with SSL/TLS through a dedicated port (default: "
+"IMAPS=993, POP3S=995)"
+msgstr ""
+"З’єднання шифруються SSL/TLS через окремий порт (типово: IMAPS=993, "
+"POP3S=995)"

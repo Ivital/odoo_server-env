@@ -41,7 +41,7 @@ msgstr "Назва для відображення"
 #. module: server_environment
 #: model:ir.model,name:server_environment.model_server_config
 msgid "Display server configuration"
-msgstr ""
+msgstr "Показувати конфігурацію сервера"
 
 #. module: server_environment
 #: model:ir.model.fields,field_description:server_environment.field_server_config__id
@@ -61,7 +61,7 @@ msgstr "Останнє оновлення"
 #. module: server_environment
 #: model:ir.model,name:server_environment.model_server_env_mixin
 msgid "Mixin to add server environment in existing models"
-msgstr ""
+msgstr "Міксин для додавання серверного середовища в наявні моделі"
 
 #. module: server_environment
 #: model:ir.model.fields,field_description:server_environment.field_server_env_mixin__server_env_defaults
@@ -78,7 +78,7 @@ msgstr "Середовище сервера"
 #. module: server_environment
 #: model:ir.model,name:server_environment.model_server_env_techname_mixin
 msgid "Server environment technical name"
-msgstr ""
+msgstr "Технічна назва середовища сервера"
 
 #. module: server_environment
 #: model:ir.model.fields,field_description:server_environment.field_server_env_techname_mixin__tech_name
@@ -93,7 +93,7 @@ msgstr "Унікальна назва для технічних цілей. На
 #. module: server_environment
 #: model:res.groups,name:server_environment.has_server_configuration_access
 msgid "View Server Environment Configuration"
-msgstr ""
+msgstr "Перегляд конфігурації середовища сервера"
 
 #. module: server_environment
 #: model:ir.model.constraint,message:server_environment.constraint_server_env_techname_mixin_tech_name_uniq

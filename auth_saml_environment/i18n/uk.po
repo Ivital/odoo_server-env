@@ -54,3 +54,24 @@ msgstr "значення конфігурації середовища sp_pem_pr
 #: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__sp_pem_public_path
 msgid "sp_pem_public_path env config value"
 msgstr "значення конфігурації середовища sp_pem_public_path"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,help:auth_saml_environment.field_auth_saml_provider__idp_metadata
+#: model:ir.model.fields,help:auth_saml_environment.field_auth_saml_provider__x_idp_metadata_env_default
+msgid ""
+"Configuration for this Identity Provider. Supplied by the provider, in XML "
+"format."
+msgstr ""
+"Конфігурація для цього постачальника ідентифікації. Надається постачальником"
+" у форматі XML."
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,help:auth_saml_environment.field_auth_saml_provider__entity_id
+#: model:ir.model.fields,help:auth_saml_environment.field_auth_saml_provider__x_entity_id_env_default
+msgid "EntityID passed to IDP, used to identify the Odoo"
+msgstr "EntityID, переданий IDP для ідентифікації Odoo"
+
+#. module: auth_saml_environment
+#: model:ir.model,name:auth_saml_environment.model_auth_saml_provider
+msgid "SAML2 Provider"
+msgstr "Постачальник SAML2"
