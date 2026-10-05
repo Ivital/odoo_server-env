@@ -19,3 +19,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__entity_id
 msgid "Entity ID"
 msgstr "ID сутності"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__server_env_defaults
+msgid "Server Env Defaults"
+msgstr "Типові значення серверного середовища"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__sp_pem_private
+msgid "Sp Pem Private"
+msgstr "Приватний PEM SP"
+
+#. module: auth_saml_environment
+#: model:ir.model.fields,field_description:auth_saml_environment.field_auth_saml_provider__sp_pem_public
+msgid "Sp Pem Public"
+msgstr "Відкритий PEM SP"
